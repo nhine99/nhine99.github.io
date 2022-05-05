@@ -1,0 +1,31 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.card {
+    width: 320px;
+    margin: auto;
+    border-radius: 4px;
+    
+}
+
+.content h2 {
+    font-size: 19px;
+    font-weight: 400;
+    color: #464646;
+}
+.content p {
+    font-size: 14px;
+    font-weight: 100;
+    color: #757575;
+}
+.content p span {
+    color: #ffd600;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTVN2</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        width: 400px;
+        margin: auto;
+      }
+      .box {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">ĐĂNG KÍ</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Full name</td>
+          <td>
+            <form>
+              <input type="text" placeholder="Nhập fullname" />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Username</td>
+          <td>
+            <form>
+              <input type="text" placeholder="Nhập tên" />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Password</td>
+          <td>
+            <form>
+              <input type="password" placeholder="Nhập mật khẩu" />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Nhập lại <br />
+            Password
+          </td>
+          <td><input type="password" placeholder="Nhập lại mật khẩu" /></td>
+        </tr>
+
+        <tr>
+          <td>Giới tính</td>
+          <td>
+            <form>
+              <input type="radio" name="gender" id="male" />
+              <label for="male">Nam</label>
+
+              <input type="radio" name="gender" id="female" />
+              <label for="male">Nữ</label>
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Ngày sinh</td>
+          <td>
+            <form>
+              <select>
+                <option>Ngày 1</option>
+                <option>Ngày 2</option>
+                <option>Ngày 3</option>
+                <option>Ngày 4</option>
+                <option>Ngày 5</option>
+                <option>Ngày 6</option>
+              </select>
+              <select>
+                <option>Tháng 1</option>
+                <option>Tháng 2</option>
+                <option>Tháng 3</option>
+                <option>Tháng 4</option>
+                <option>Tháng 5</option>
+                <option>Tháng 6</option>
+              </select>
+              <select>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+              </select>
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Địa chỉ</td>
+          <td>
+            <form>
+              <textarea></textarea>
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Avatar</td>
+          <td>
+            <form>
+              <input type="file" />
+            </form>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Sở thích</td>
+          <td>
+            <form>
+              <input type="checkbox" name="interests1" id="interests1" />
+              <label for="interests1">Xem Phim</label>
+
+              <input type="checkbox" name="interests2" id="interests2" />
+              <label for="interests2">Thể Thao</label>
+
+              <input type="checkbox" name="interests3" id="interests3" />
+              <label for="english">Web</label> <br />
+            </form>
+          </td>
+        </tr>
+
+        <tr class="box">
+          <td colspan="2">
+            <form>
+              <button>Reset</button>
+              <button>OK</button>
+            </form>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

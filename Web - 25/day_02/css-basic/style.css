@@ -1,0 +1,49 @@
+h2 {
+    color: green;
+    background-color: black;
+
+    color: red;
+  }
+
+  #heading {
+    color: deepskyblue;
+    background-color: blueviolet;
+    text-transform: uppercase;
+  }
+  .para {
+    font-style: italic;
+    color: #d51616;
+    font-size: 20px;
+  }
+
+  .text-red {
+    color: red;
+  }
+
+  .text-center {
+    align-items: center;
+  }
+
+  .text-unppercase {
+    text-transform: ;
+  }
+
+  .text-big {
+    font-size: 32px;
+  }
+
+  .text-big.text-red {
+    color: blue;
+  }
+
+  h2.text-big.text-red {
+    color: yellow;
+  }
+
+  .box p {
+    color: darkgoldenrod;
+  }
+
+  .text-big, .text-red {
+    background-color: aliceblue;
+  }

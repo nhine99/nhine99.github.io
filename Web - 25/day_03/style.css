@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text : #61bd3b;
+    --color-heading :#d115a8;
+    --width : 100px;
+    --height : 100px;
+}
+
+.text {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+
+.box {
+    font-size: 10px;
+}
+
+.box p {
+    font-size: 1.5em;
+    color: var(--color-text);
+}
+
+.box h2 {
+    font-size: 4em;
+    color: var(--color-heading)
+}
+
+.parent {
+    width: calc(80);
+    height: 50vh;
+    background-color: aqua;
+}
+
+.chill {
+    width: 80%;
+    height: 100%;
+    background-color: darkorange;
+}
+
+.shape {
+    width: 400px;
+    height: 300px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 10px solid;
+}

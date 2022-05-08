@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    color: azure;
+    font-size: 32px;
+    border: 2px solid black;
+
+    text-align: center;
+    line-height: 5;
+
+}

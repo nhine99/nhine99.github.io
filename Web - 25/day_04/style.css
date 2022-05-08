@@ -1,0 +1,49 @@
+/* Clear 1 số thuộc tính css mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    color: #464646;
+}
+
+a {
+    text-decoration:  none;
+}
+
+ul {
+    list-style-type: none;
+}
+button {
+    border: none;
+}
+
+/* Card */
+
+.card {
+    width: 400px;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    background-color: #fff;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.year {
+    background-color: #ef5321;
+    color: #fff;
+    padding: 6px;
+    text-align: center;
+}
+
+.date {
+    background-color: #fe6d3f;
+    color: #fff;
+    padding: 32px;
+}
+
+.date h2 {
+    text-align: center;
+}

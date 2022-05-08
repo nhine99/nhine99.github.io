@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  height: 500px;
+  line-height: 35px;
+  font-size: 14px;
+  color: aliceblue;
+  font-weight: 400;
+  line-height: 2.5;
+  background-color: #30598c;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+
+}
+
+.footer-item {
+    flex-basis: 25%;
+    
+}
+
+.footer-item h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+  margin-inline-end: 8px;
+  margin-bottom: 8px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  color: gray;
+  text-decoration-line: underline
+}
+/* Card */

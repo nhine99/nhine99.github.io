@@ -14,7 +14,7 @@ body {
     grid-gap: 2rem;  
     width: 1300px;
     margin: auto;
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -102,3 +102,5 @@ img {
     color: gray;
     text-decoration-line: underline
   }
+
+  

@@ -14,9 +14,9 @@ body {
 }
 
 .header {
-    padding-left: 193px;
-    text-decoration: none;
-
+      text-decoration: none;
+      margin: auto;
+      width: 1000px;
 }
 .course-description {
     border-radius: 4px;
@@ -26,7 +26,7 @@ body {
     padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 40px;
-    width: 1500px;
+    width: 1000px;
     padding-top: 50px;
     margin: auto;
     

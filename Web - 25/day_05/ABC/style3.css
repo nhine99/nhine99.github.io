@@ -14,9 +14,10 @@ body {
 }
 
 .header {
-      text-decoration: none;
-      margin: auto;
-      width: 1000px;
+    text-decoration: none;
+    margin: auto;
+    width: 1000px;
+
 }
 .course-description {
     border-radius: 4px;
@@ -30,6 +31,34 @@ body {
     padding-top: 50px;
     margin: auto;
     
+    
+}
+.course-description img {
+    width: 50%;
+    
+    
+}
+
+.image {
+    text-align: center;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+   text-align: center;
+
+}
+tbody td{
+
+  width: 40%;
+}
+
+tbody img{
+  width: 50%;
+  padding: 2%;
+   
 }
 
 .course-description h3 {
@@ -37,16 +66,20 @@ body {
     font-size: 1.75rem;
 }
 
+
 .course-description a {
     text-decoration: none;
   color: #007bff;
 }
 
 .course-description a:hover {
-  color: #6f42c1;
-  text-decoration-line: underline
+    color: #6f42c1;
+    text-decoration-line: underline
+  }
+.title-div-info {
+    font-size: 2.2rem;
+    padding: 0.5rem 1.5rem;
 }
-
 
 .footer {
     display: flex;
@@ -86,14 +119,14 @@ body {
   }
 
   .button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

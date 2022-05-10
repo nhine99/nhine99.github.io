@@ -14,10 +14,11 @@ body {
 }
 
 .header {
-      text-decoration: none;
-      margin: auto;
-      width: 1000px;
+    text-decoration: none;
+    margin: auto;
+    width: 1000px;
 }
+
 .course-description {
     border-radius: 4px;
     background-color: #fff;
@@ -43,10 +44,13 @@ body {
 }
 
 .course-description a:hover {
-  color: #6f42c1;
-  text-decoration-line: underline
+    color: #6f42c1;
+    text-decoration-line: underline
+  }
+.title-div-info {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
 }
-
 
 .footer {
     display: flex;
@@ -84,8 +88,7 @@ body {
     color: gray;
     text-decoration-line: underline
   }
-
-  .button {
+.button {
   background-color: #4CAF50;
   border: none;
   color: white;

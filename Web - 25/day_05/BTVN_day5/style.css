@@ -60,7 +60,7 @@ ul {
 
 .menu-item:hover > p  {
     color: chocolate;
-    background-color: #c4c4c4;
+    background-color: #eeecec;
     border: #757575;
     
     
@@ -68,8 +68,8 @@ ul {
 
 .menu-item:hover > p a {
     color: chocolate;
-    background-color: #c4c4c4;
-    border: #757575;
+    background-color: #eeecec;
+    
     
     
 }

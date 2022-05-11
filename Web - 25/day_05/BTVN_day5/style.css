@@ -66,6 +66,13 @@ ul {
     
 }
 
+.menu-item:hover > p a {
+    color: chocolate;
+    background-color: #c4c4c4;
+    border: #757575;
+    
+    
+}
 
 .menu-item:hover > p .icon {
     display: inline-block;

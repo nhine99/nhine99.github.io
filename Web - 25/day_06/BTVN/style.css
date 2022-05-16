@@ -15,6 +15,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     
+    
   }
   
   .card a {
@@ -113,7 +114,6 @@ body {
     position: absolute;
     left: 20px;
     right: 20px;
-    bottom: 100px;
     color: #666c74;
     opacity: 0;
     overflow: hidden;

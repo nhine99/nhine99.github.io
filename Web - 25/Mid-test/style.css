@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #111;
+    line-height: 1.15;
+}
+
+.container {
+    margin: 0 auto;
+    height: 60px;
+    background-color: black;
+    padding: 0 30px;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    padding: 50px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px 20px;
+    font-size: 18px;
+
+}
+
+.menu li a {
+    position: relative;
+}
+
+.menu li a::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    bottom: -13px;
+    width: 0px;
+    transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.menu li :hover::before {
+    display: block;
+    width: 100%;
+}
+
+.image img {
+    max-width: 100%;
+    
+}
+
+
+.menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.logo img {
+    max-width: 50%;
+}
+
+.buy-wrapper {
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 40px;
+    width: 1000px;
+    padding-top: 50px;
+    margin: auto;
+    line-height: 2.5;
+ 
+}
+
+.box {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 18px;
+    color: #555;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border: 1px solid #bebebe;
+    display: inline-block;
+    font-weight: 700;
+    
+}
+
+
+.footer {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #111;
+    padding-top: 48px;
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: 400;
+    padding-bottom: 48px;
+    line-height: 2.5;
+    padding-left: 200px;
+    padding-right: 100px;
+    
+  }
+  .footer-item {
+    flex-basis: 25%;
+  }
+  
+  .footer-item h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.6px;
+    margin-inline-end: 8px;
+    margin-bottom: 8px;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .footer a:hover {
+    color: gray;
+    text-decoration-line: underline
+  }
+  
+  .btn-top {
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background: #0A7CFF;
+    border-radius: 60px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

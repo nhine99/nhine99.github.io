@@ -1,0 +1,29 @@
+.heart {
+    background-color: red;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #fff;
+    text-align: center;  
+    font-size: 10rem;
+    animation: animation 1s  infinite;
+    
+}
+
+@keyframes animation {
+    0% {
+        font-size: 10rem;
+    }
+    50% {
+        font-size: 15rem;
+    }
+    100% {
+        font-size: 10rem;
+    }
+}

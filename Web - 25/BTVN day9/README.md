@@ -143,8 +143,8 @@ Khi bạn muốn Enter xuống hàng một chuỗi thì bắt buộc phải sử
 
 ```JS
 let message = "Xin chào các bạn, " +
-"mình tên là \"Bùi Hiên\". " +
-"Mình sinh năm 1997";
+"mình tên là \"Nhi\". " +
+"Mình sinh năm 1999";
 ```
 **Nối chuỗi trong Javascript**
 
@@ -168,7 +168,7 @@ Có thể dùng các biến, biểu thức ngay trong chuỗi với cú pháp nh
 **Ví dụ:**
 ```JS
 let name = "Nhi"
-let year = 1997
+let year = 1999
 
 console.log(`Xin chào các bạn, mình tên là ${name}. Năm nay ${2022 - year} tuổi`);
 ```

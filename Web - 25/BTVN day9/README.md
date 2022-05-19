@@ -143,7 +143,7 @@ Khi bạn muốn Enter xuống hàng một chuỗi thì bắt buộc phải sử
 
 ```JS
 let message = "Xin chào các bạn, " +
-"mình tên là \"Bùi Hiên\". " +
+"mình tên là \"Văn Nhi\". " +
 "Mình sinh năm 1997";
 ```
 **Nối chuỗi trong Javascript**
@@ -152,7 +152,7 @@ let message = "Xin chào các bạn, " +
 
 ```JS
 let firstName = "Nguyễn";
-let lastName = "Thu Hằng";
+let lastName = "Văn Nhi";
 let fullName = firstName + " " + lastName;
 ```
 # Template strings – ES6

@@ -145,7 +145,6 @@ Khi bạn muốn Enter xuống hàng một chuỗi thì bắt buộc phải sử
 let message = "Xin chào các bạn, " +
 "mình tên là \"Nhi\". " +
 "Mình sinh năm 1999";
-
 ```
 **Nối chuỗi trong Javascript**
 

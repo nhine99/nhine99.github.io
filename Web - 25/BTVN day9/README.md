@@ -152,7 +152,7 @@ let message = "Xin chào các bạn, " +
 
 ```JS
 let firstName = "Nguyễn";
-let lastName = "Thu Hằng";
+let lastName = "Văn Nhi";
 let fullName = firstName + " " + lastName;
 ```
 # Template strings – ES6

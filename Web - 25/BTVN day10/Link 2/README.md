@@ -48,7 +48,7 @@ Với function kiểu này có thể có một hoặc nhiều tham số (không 
 function sayHello(name) {
     console.log(`Xin chào ${name}`);
 }
-sayHello("Bùi Hiên");
+sayHello("Văn Nhi");
 
 // Ví dụ function có 2 tham số
 function sayHello_1(name, city) {

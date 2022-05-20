@@ -12,7 +12,7 @@ function functionName(para_1, ..., para_n) {
 ```
 Thực thi function
 
-```JS
+```js
 functionName(para_1, ..., para_n)
 ```
 **Phân biệt tham số (parameter) và đối số (argument)**
@@ -30,7 +30,7 @@ Function có các loại sau
 - Function có giá trị trả về hoặc không
 
 **1. Function không có tham số**
-```JS
+```js
 function sayHello() {
     console.log("Xin chào các bạn");
 }
@@ -42,7 +42,7 @@ sayHello();
 
 Với function kiểu này có thể có một hoặc nhiều tham số (không nên quá 3 tham số)
 
-```JS
+```js
 // Ví dụ function có 1 tham số
 function sayHello(name) {
     console.log(`Xin chào ${name}`);
@@ -59,7 +59,7 @@ sayHello_1("Văn Nhi", "Kon Tum");
 
 Để trả về kết quả, sử dụng từ khóa **return**
 
-```JS
+```js
 function sum(a, b) {
     return a + b;
 }
@@ -74,7 +74,7 @@ console.log(sum(4, 5));
 
 Ví dụ:
 
-```JS
+```js
 function sum(a, b) {
     return a + b;
     console.log(a); // không được thực thi
@@ -94,7 +94,7 @@ Khi sử dụng chức năng này sẽ giúp function dễ control và ít error
 
 Ví dụ:
 
-```JS
+```js
 function sayHello(name = "Lan Hương") {
     console.log(`Xin chào ${name}`);
 }
@@ -116,7 +116,7 @@ Có 3 loại scope:
 
 Một biến được coi là global scope (toàn cục) nếu biến đó được định nghĩa bên ngoài function
 
-```JS
+```js
 function hello() {
     let name = "Văn Nhi";
     console.log(name);
@@ -130,10 +130,10 @@ console.log(name) // Lỗi
 
 Một biến được coi là block scope nếu biến đó được định nghĩa bên trong cặp dấu {}
 
-```JS
+```js
 {
-    let name = "Bùi Hiên";
-    console.log(name); // Bùi Hiên
+    let name = "Văn Nhi";
+    console.log(name); // Văn Nhi
 }
 
 console.log(name) // Lỗi
@@ -142,7 +142,7 @@ console.log(name) // Lỗi
 
 Nếu 1 biến không có từ khóa khai báo biến, sẽ trở thành biền global
 
-```JS
+```js
 function sayHello() {
     number = 10;
     console.log(number);
@@ -161,7 +161,7 @@ Giá trị của kiểu dữ liệu này chỉ có thể là **true** hoặc **f
 
 Ví dụ
 
-```JS
+```js
 let a = true;
 let b = false;
 let c = !a;
@@ -170,7 +170,7 @@ let d = !b;
 
 **Xác định giá trị Boolean**
 
-```JS
+```js
 let a = 5;
 console.log(Boolean(a));
 
@@ -188,7 +188,7 @@ Note:
 - Có **6 giá trị** sau được coi là **falsy** : **false, 0, NaN, ‘’, null, undefined**
 - Các giá trị còn lại, ngoài các giá trị trên được gọi là **truthy**
 
-```JS
+```js
 console.log(Boolean(false)); // false
 
 console.log(Boolean(0)); // false
@@ -208,7 +208,7 @@ console.log(Boolean(undefined)); // false
 
 Thực hiện câu lệnh trong if nếu điều kiện cho trước là đúng.
 
-```JS
+```js
 // Cú pháp
 if (điều kiện) {
     // Code được thực thi nếu điều kiện đúng
@@ -225,7 +225,7 @@ if (hour < 10) {
 
 Nếu **điều kiện đúng** thực hiện câu lệnh trong **if**, ngược lại nếu **điều kiện sai** thì hiện câu lệnh trong **else**.
 
-```JS
+```js
 // Cú pháp
 if (điều kiện) {
     // Code được thực thi nếu điều kiện đúng
@@ -246,7 +246,7 @@ if (hour < 12) {
 
 Chỉ định một điều kiện mới nếu điều kiện đầu tiên là sai
 
-```JS
+```js
 // Cú pháp
 if (điều kiện 1) {
     // Code được thực thi nếu điều kiện 1 đúng
@@ -277,7 +277,7 @@ Tuy nhiên cần chú ý điểm sau khi sử dụng để thực hiện so sán
 
 Ví dụ:
 
-```JS
+```js
 let a = 2;
 let b = "2";
 
@@ -296,7 +296,7 @@ console.log(a === b) // false
 
 Thực hiện câu lệnh trong if nếu điều kiện cho trước là đúng.
 
-```JS
+```js
 // Cú pháp
 if (điều kiện) {
     // Code được thực thi nếu điều kiện đúng
@@ -313,7 +313,7 @@ if (hour < 10) {
 
 Nếu **điều kiện đúng** thực hiện câu lệnh trong **if**, ngược lại nếu **điều kiện sai** thì hiện câu lệnh trong **else**.
 
-```JS
+```js
 // Cú pháp
 if (điều kiện) {
     // Code được thực thi nếu điều kiện đúng
@@ -334,7 +334,7 @@ if (hour < 12) {
 
 Chỉ định một điều kiện mới nếu điều kiện đầu tiên là sai
 
-```JS
+```js
 // Cú pháp
 if (điều kiện 1) {
     // Code được thực thi nếu điều kiện 1 đúng

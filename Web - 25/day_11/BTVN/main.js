@@ -11,7 +11,17 @@ let repeatString1 = "a-";
 
 console.log(`${repeatString1.repeat(9)}a`);
 
-
+// Bài 3
+function repeatStringNumTimes(string, n) {
+    var repeatedString = "" ;
+    while (n > 0) {
+      repeatedString += string;
+      n--;
+    }
+    return repeatedString;
+  }
+//   repeatStringNumTimes("a", 5);
+  console.log(repeatStringNumTimes("a", 5) )
 
 
 // Bài 4

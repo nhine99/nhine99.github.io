@@ -116,6 +116,16 @@ if(hour < 12) {
 } 
  
 
+function sum10(a,b) {
+    if( a > b) {
+        console.log(a);
+    } else {
+        console.log(b);
+    }
+}
+
+sum10(12,5)
+
 
 
 

@@ -11,9 +11,7 @@ function divisible(a) {
     }
     else if(a%5 == 0 ) {
         console.log("Buzz")
-    } else{
-        
-    }
+    } 
 
 }
 divisible(30)
@@ -69,7 +67,7 @@ equation1(4,2,-2)
 // Bài 4
 
 function year(year){
-    if( year%4 == 0 ){
+    if( year%4 == 0 ) {
         if( year%100 == 0) {
             if( year%400 == 0) {
                 console.log("Là năm nhuận")
@@ -86,16 +84,18 @@ function year(year){
     }
 }
 
-year(2400)
+
+
+year(2022)
 
 // Bài 5
 
-function bmi(weight,height) {
+function calculationBmi(weight,height) {
     let bmi = weight/(height*height)
     return console.log(bmi)
 }
 
-bmi(50,100)
+calculationBmi(50,100)
 
 // Bài 6
 function fahrenheit(c) {
@@ -104,6 +104,7 @@ function fahrenheit(c) {
 }
 
 fahrenheit(30)
+
 
 
 

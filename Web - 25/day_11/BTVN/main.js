@@ -7,96 +7,94 @@ console.log(`${repeatString.repeat(10)}`);
 
 // Bài 2
 
-let repeatString1 = "a-";
-
-console.log(`${repeatString1.repeat(9)}a`);
+function repeatString2(str) {
+  let sum = "";
+  for (let i = 0; i < 9; i++) {
+      sum += `${str}-`;
+  }
+  sum += str;
+  return sum;
+}
+console.log(repeatString2("a"));
 
 // Bài 3
-function repeatStringNumTimes(string, n) {
-    var repeatedString = "" ;
-    while (n > 0) {
-      repeatedString += string;
-      n--;
-    }
-    return repeatedString;
+function repeatString3(str,n) {
+  let res = str;
+  for (let i = 0; i < n - 1; i++) {
+    res += '-' + str;
   }
-//   repeatStringNumTimes("a", 5);
-  console.log(repeatStringNumTimes("a", 5) )
+  return res;
+}
 
+console.log(repeatString3('a', 5));
 
 // Bài 4
 
 var s=0;
 for (var i = 0; i <= 100; i++){
     if (i % 5 == 0){
-        s += i;
-   
+        s += i;  
     }
 }
  console.log(s)
 
 // Bài 5
 
-function Globular( glr_diameter) {
-		  
-  this.glr_diameter = glr_diameter;
+function volume(r) {
+  let v = (4*Math.PI*r*r*r)/3
+  return v;
 }
-
-Globular.prototype.Volume = function () {
-  var radius = this.glr_diameter;
-  
-  return 4/3 * Math.PI * radius * radius * radius;
-};
-
-var glr = new Globular(5);
-
-console.log('Thể tích =' , glr.Volume().toFixed(4));
+console.log(volume(4))
 
 // Bài 6
 
-let sum=0;
-for (let i = 1; i <= 8; i++) {
-  if (i >3 && i<8) {
-    sum +=i
+function sum(num1, num2) {
+  total = 0;
+  if (num1 < num2) {
+      for (let i = num1 + 1; i < num2; i++) {
+          total += i;
+      }
+  } else {
+      for (let i = num2 + 1; i < num1; i++) {
+          total += i;
+      }
   }
+  return total;
 }
-console.log(sum)
- 
+console.log(sum(3, 8));
+console.log(sum(8, 3));
 //Bài 7
 
-function kiem_tra_snt(n) {
-    // Biến cờ hiệu
-    var flag = true;
+function isPrime(number) {
+  if (number < 2) {
+      return false;
+  }
 
-    // Nếu n bé hơn 2 tức là không phải số nguyên tố
-    if (n < 2) {
-        flag = false;
-    }
-    else if (n == 2) {
-        flag = true;
-    }
-    else if (n % 2 == 0) {
-        flag = false;
-    }
-    else {
-        // lặp từ 3 tới n-1 với bước nhảy là 2 (i+=2)
-        for (var i = 3; i < Math.sqrt(n); i += 2) {
-            if (n % i == 0) {
-                flag = false;
-                break;
-            }
-        }
-    }
+  for (let i = 2; i < number; i++) {
+      if (number % i === 0) {
+          return false;
+      }
+  }
 
-    // Kiểm tra biến flag
-    if (flag == true) {
-        console.log(n + " là số nguyên tố");
-    }
-    else {
-        console.log(n + " không phải là số nguyên tố");
-    }
+  return true;
 }
-kiem_tra_snt(7)
+
+console.log(isPrime(2));
+console.log(isPrime(3));
+console.log(isPrime(4));
+
+
+// Bài 8 
+function tongNT(number) {
+  let sum = 0;
+  for (let i =2; i <= number; i ++) {
+    if(isPrime(i)) {
+      sum += i
+    }
+  }
+  return sum
+}
+console.log(tongNT(8))
 
 // Bài 9
 

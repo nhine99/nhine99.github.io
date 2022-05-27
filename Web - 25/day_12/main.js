@@ -74,12 +74,3 @@ function printRectangle(row, col) {
 }
 printRectangle(5,4)
 
-// Bài 2
-function printRectangleEmpty(row,col) {
-    let content = "";
-    for (let i=0; i < row; i++) {
-        for (let j =0; j<col;j++) {
-            if (i==0 || i = row - 1 ||)
-        }
-    }
-}

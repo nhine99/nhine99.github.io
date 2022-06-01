@@ -8,7 +8,7 @@ console.log(checkStringExist("i love you", "hate"))
 
 
 // Bài 2
-
+   // Cách 1
 function shortenString(str) {
     let sub;
     if (str.length > 8) {
@@ -20,17 +20,28 @@ function shortenString(str) {
 console.log(shortenString("Xin chào các bạn"))
 console.log(shortenString("Hello"))
 
+   //
+
 // Bài 3
 
-let palindrome = str => {
-    // chuyển qua lowercase trước
-    str = str.toLowerCase()
-    // chuyển thành array, reverse rồi so sánh
-    return str == str.split('').reverse().join('')
-}
-console.log(palindrome("Race car"))
-console.log(palindrome("Rac car"))
+// let palindrome = str => {
+//     str = str.toLowerCase()
+//     return str == str.split('').reverse().join('')
+// }
+// console.log(palindrome("Madam"))
+// console.log(palindrome("Hello world"))
 
+function isString(str="") {
+    // Format chuỗi ( in thường, loại bỏ khoảng trống) ( replace, replaceAll)
+    let str2 = str.toLowerCase().split("").join("");
+
+    // Tìm ra chuỗi đảo ngược
+    let str3 ="";
+    for ( let i = str2.length -1; i >= 0; i--) {
+        str3 += str2[i];
+    }
+}
+ 
 // Bài 4
 function alphabet_order(str) {
     return str.split('').sort().join('');
@@ -40,15 +51,16 @@ console.log(alphabet_order("53751"));
 
 
 // Bài 5
-let toSnakeCase = str =>
-    str &&
-    str
-        .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-        .map(x => x.toLowerCase())
-        .join('_');
+function snake_case(str) {
+    return str.toLowerCase().split(" ").join("_");
+}
 
-console.log(toSnakeCase('HELLO world'));
-console.log(toSnakeCase('Xin Chao Cac BAN'));
+console.log(snake_case('HELLO world'));
+console.log(snake_case('Xin Chao Cac BAN'));
+
+
+
+
 
 
 

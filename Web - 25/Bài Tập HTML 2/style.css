@@ -90,6 +90,7 @@ header {
 }
 
 .section1 .img {
+  background-size: 100%;
   width: 50%;
   height: 670px;
   background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/1928ac4fdeea5ee28a624ce0/firstdayofschoolbacktoschoolphotoideasphotographyhowtotakegreatpictures13.jpg");
@@ -561,6 +562,7 @@ header {
 }
 
 .section7 .container .layout1 {
+  background-size: 100%;
   height: 478px;
   width: 373.33px;
   background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/ca781a3c8fdc51668d3016a3/c4f5abfbf6e1318f547819911d40eb34.jpg");
@@ -589,6 +591,7 @@ header {
 }
 
 .section7 .container .layout3 {
+  background-size: 100%;
   height: 478px;
   width: 373.33px;
   background-image: url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/45abe08f6d4a5feb8226c2d3/bf76ae7aee2f9e595a6c9f6bdefc52a2.jpg");

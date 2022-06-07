@@ -31,7 +31,7 @@ console.log(chiaMang(num));
 // Bài 4: Cho 1 chuỗi, hãy viết hàm có tác dụng sao chép đó chuỗi lên 10 lần
 function repeatString1(str,n){
     let str2 = []
-    for (let i = 0; i <= n-1; i++) {
+    for (let i = 0; i < n; i++) {
         str2.push(str)
     }
     return str2.join('')
@@ -42,7 +42,7 @@ console.log(repeatString1('a',10))
 // Bài 5
 function repeatString(str,n){
     let str2 = []
-    for (let i = 0; i <= n-1; i++) {
+    for (let i = 0; i < n; i++) {
         str2.push(str)
     }
     return str2.join('-')

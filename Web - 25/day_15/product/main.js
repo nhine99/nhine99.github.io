@@ -2,7 +2,7 @@
 let products = [
     {
         name: "Iphone 13 Pro Max", // Tên sản phẩm
-        price: 3000000, // Giá mỗi sản phẩm
+        price: 30000000, // Giá mỗi sản phẩm
         brand: "Apple", // Thương hiệu
         count: 2, // Số lượng sản phẩm trong giỏ hàng
     },
@@ -73,6 +73,7 @@ const findProductByName = (arr, name) => {
             newArr.push(product);
         }
     })
+    return newArr
     // return arr.filter(product => product.name.toLowerCause().includes(name.toLowerCase()))
 }
 console.log(findProductByName(products,"Pro"))
@@ -80,9 +81,9 @@ console.log(findProductByName(products,"Pro"))
 // 6. Thêm 1 sản phẩm bất kỳ vào trong mảng product
 let product1 = {
     name : "Iphone12",
-    price : "20000000",
+    price : 20000000,
     brand : "Iphone",
-    count : "1",
+    count : 1,
 }
 products.push(product1)
 console.log(products)
@@ -96,10 +97,39 @@ const deteleProduct = (arr, brand) => {
     })
     return newArr
 }
-
+console.log(deteleProduct(products, "Samsung"))
 
 // 8. Sắp xếp giỏ hàng theo price tăng dần
+// const upProduct = (arr, price) => {
+//     let newArr = [];
+//     arr.forEach(product => {
+//         if( product.price > price) {
+//             newArr.sort()
+//         }
+//     })
+//     return newArr
+// }
+// console.log(upProduct(products, price));
+
+
+let priceTangDan = products.sort(function(a,b){
+    if (a.price > b.price) return 1;
+    if (a.price < b.price) return -1;
+    return 0;
+})
+
+console.log(priceTangDan);
 
 // 9. Sắp xếp giỏ hàng theo count giảm dần
 
+let countGiamDan = products.sort(function(a,b){
+    if (a.count > b.count) return -1;
+    if (a.count < b.count) return 1;
+    return 0;
+})
+
+console.log(countGiamDan);
+
 // 10. Lấy ra 2 sản phẩm bất kỳ trong giỏ hàng
+
+

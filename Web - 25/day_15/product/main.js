@@ -127,9 +127,14 @@ let countGiamDan = products.sort(function(a,b){
     if (a.count < b.count) return 1;
     return 0;
 })
-
 console.log(countGiamDan);
 
 // 10. Lấy ra 2 sản phẩm bất kỳ trong giỏ hàng
-
+function randomProduct(arr){
+    arr.splice((Math.random()*arr.length),1)
+    arr.splice((Math.random()*arr.length),1)
+    arr.splice((Math.random()*arr.length),1)
+    return arr
+}
+console.log(randomProduct(products))
 

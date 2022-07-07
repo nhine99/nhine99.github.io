@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+img {
+    max-width: 100%;
+  }
+  
+#header {
+    background-image: url(./image/Color\ Filter.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 780px;
+    color: #ffffff;
+    position: relative;
+}
+
+#header .container {
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header .container h2{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+
+}
+
+#header .container ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+#header .container .function p {
+    padding: 10px;
+}
+
+#header .container .function button {
+    background-color: #FFFE00;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    border-radius: 7px;
+    height: 55px;
+    width: 130px;
+    margin-top: -5px;
+}
+
+#header .info {
+    width: 976px;
+    height: 264px;
+    margin: 200px 150px;
+}
+
+#header .info h2 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+}
+
+#header .info p {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+#header .info .button1 {
+    height: 60px;
+    width: 205px;
+    background-color: #FFFE00;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#header .info .button2 {
+    height: 60px;
+    width: 205px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#header .image {
+    padding-top: 50px;
+}
+
+#header .container1 {
+    justify-content: space-between;
+}
+
+
+#smarter {
+    background-color: #ffffff;
+}
+#smarter .container {
+    padding-top: 91px;
+    padding-bottom: 106px;
+}
+
+#smarter .container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 82px;
+}
+
+#smarter .container p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #969696;
+    width: 996px;
+    margin: auto;
+}
+
+
+#explore {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#explore .explore-topics h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 82px;
+}
+
+#explore .explore-topics p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 33px;
+    color: #969696;
+    margin-bottom: 42px;
+
+}
+
+#marketer {
+    background-image: url(./image/Rectangle\ 5.png);
+    height: 450px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+#marketer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #131323;
+    opacity: 0.35;
+}
+
+#marketer .container {
+    position: relative;
+    z-index: 3;
+}
+
+#marketer .container h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 82px;
+    padding-top: 61px;
+}
+#marketer .container p {
+    width: 940px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 47px;
+    margin: 30px auto 50px;
+}
+
+#learning {
+    background-image: url(./image/Rectangle\ 4aaaaa.png);
+    height: 363px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: #ffffff;
+
+}
+
+#learning h2 {
+    width: 80%;
+    margin: auto;
+    width: 791px;
+}
+#learning .btn {
+    width: 20%;
+    margin: auto;
+}
+
+#learning button {
+    height: 80px;
+    width: 250px;
+    background-color: #FFFE00;
+    border: none;
+    border-radius: 7px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#footer {
+    height: 197px;
+}
+
+#footer .container {
+    padding-top: 80px
+}
+
+#footer .container .mentorbox h2 {
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#footer .container .mentorbox ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+#footer .container .contact img {
+    padding: 10px 30px;
+
+}
+
+@media (max-width: 768px) {
+    #explore .container {
+        text-align: center;
+        
+    }
+    #explore {
+        max-width: 100%;
+    }
+
+    #explore .container .image {
+        margin-bottom: 20px;
+    }
+}
+
+

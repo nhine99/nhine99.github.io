@@ -90,6 +90,10 @@ header .menu-icon :nth-child(2) {
   padding-top: 100px;
 }
 
+.image-slider .image-item img {
+    margin: auto;
+}
+
 .image-slider .image-item h2 {
   font-family: "Philosopher";
   color: #fff;

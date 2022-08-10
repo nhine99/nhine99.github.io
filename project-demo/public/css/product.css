@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@400;600&family=Philosopher:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #353535;
+}
+
+header {
+  background-color: #000000;
+  font-size: 12.8px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .container {
+  width: 1230px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+header .container .menu {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  height: 39px;
+}
+
+header .menu-item {
+  width: 75%;
+  height: 39px;
+  margin-top: 25px;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header .menu-icon {
+  font-size: 20px;
+}
+
+header ul a:hover {
+  color: #dd4026;
+  transition: all 0.25s;
+}
+
+header .menu-icon :nth-child(1) {
+  margin-right: 20px;
+}
+
+header .menu-icon :nth-child(2) {
+  margin-right: 20px;
+}
+
+
+.page-title .container {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.show-for-medium {
+    display: none;
+}
+
+.medium-text-center {
+    height: 50px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.breadcrumbs {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 700;
+    letter-spacing: 0px;
+    padding: 0;
+    font-size: 18.4px;
+}
+
+.breadcrumbs a {
+    color: rgba(102,102,102,0.7);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    color: #222;
+}
+
+.orderby {
+    height: 39px;
+    margin-top: -20px;
+}
+
+.product-small {
+    width: 208px;
+    height: 329px;
+    border: 1px solid #d1d1d1;
+}
+
+.category-page-row {
+    width: 1230px;
+    margin: auto;
+}
+
+#shop-sidebar {
+    width: 25%;
+    padding: 15px;
+}
+
+
+
+.large-9 {
+    width: 75%;
+    padding: 15px;
+}
+
